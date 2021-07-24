@@ -1,0 +1,140 @@
+/* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*----------
+Soccer Player With Footboll style
+----------*/
+.First{
+background-color: #2D25A0;
+}
+.Second span button{
+    background: #E02C6D;
+    color: white;
+    float: right;
+    margin-right: 3%;
+    padding: 10px 30px;
+    border: #E02C6D;  
+}
+.third1{
+    display: flex;
+}
+.third2 button{
+        background: #E02C6D;
+        color: white;
+        float: left;
+        margin-right: 10%;
+        padding: 10px 30px;
+        border: #E02C6D; 
+}
+.third3 img{
+    padding: 20%;
+    width: 400px;
+    height: 350px; 
+}
+.third2{
+    margin-left: 35px;
+}
+.topic{
+    font-size: 64px;
+    color: white;
+}
+.third3:hover .move{
+    transform: scale(1.1) rotate(5deg);
+    transform-origin: top left;
+}
+/* ----Players Details---- */
+
+.photo-frame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+.photo-album{
+    position: relative;
+    width: 330px;
+    height: 474px;
+    border: 20px solid white;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.15);
+}
+.photo img{
+    width: 90%;
+margin: 15px 15px;
+}
+.photo-detail h3{
+    color: black;
+    margin: 15px 15px;
+}
+.photo-album p{
+    font-family: Poppins;
+    font-size: small;
+    font-weight: normal;
+    margin: 15px 15px 15px;
+    color: #6C6C6C;
+}
+ /* Highlights style */
+
+ .fifth2{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 7%;
+ }
+.fifth2 button{
+        color: white;
+        padding: 10px 30px;
+        background: #E02C6D;
+        border: #E02C6D; 
+}
+.fifth1 .fifth3 img{
+    width: 320px;
+    height: 280px;
+}
+.fifth1 .fifth4 img{
+    width: 320px;
+    height: 280px;
+}
+.blog .Highlights{
+    padding-top: 0%;
+    font-size: 40px;
+    color: black;
+}
+/* ----Footer Style ---- */
+.blog .Top-News{
+    padding-top: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    width: 466px;
+    color: #6C6C6C;
+}
+
+/* ----Footer Style ---- */
+
+.footer-content{
+    display: grid;
+    }
+.footer{
+    text-align: center;
+}
+.footer-topic img{
+    position: static;
+    width: 483.87px;
+    height: 110px;
+    margin-left: 25%;
+}
+.socials{
+    color: gray;
+}
+.footer .end{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
