@@ -10,7 +10,7 @@ Soccer Player With Footboll style
 .First{
 background-color: #2D25A0;
 }
-.Second span button{
+.Second  button{
     background: #E02C6D;
     color: white;
     float: right;
@@ -104,7 +104,6 @@ margin: 15px 15px;
     font-size: 40px;
     color: black;
 }
-/* ----Footer Style ---- */
 .blog .Top-News{
     padding-top: 0;
     font-family: Poppins;
@@ -119,6 +118,7 @@ margin: 15px 15px;
 
 .footer-content{
     display: grid;
+
     }
 .footer{
     text-align: center;
@@ -137,4 +137,39 @@ margin: 15px 15px;
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
+}
+/* ------Media Queries------- */
+
+/* ------Mobile Devices------  */ 
+@media only screen and (max-width:688px) {
+
+    .First{
+        width: 100%;
+    }
+    .Second nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .third1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+.third3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.fifth2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 25%;
+}
+.footer-content img{
+    margin: 5%;
+}
 }
